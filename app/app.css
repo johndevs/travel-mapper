@@ -1,0 +1,115 @@
+.headerRow {
+  height:50px;
+  background: #cedce7; /* Old browsers */
+  background: -moz-linear-gradient(top, #cedce7 0%, #596a72 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(100%,#596a72)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cedce7 0%,#596a72 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cedce7 0%,#596a72 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cedce7 0%,#596a72 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #cedce7 0%,#596a72 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+}
+
+.headerRow .header-text {
+  color:white;
+  font-size: 36px;
+  text-shadow: 1px 1px #333;
+  margin-top:5px;
+  margin-bottom:9px;
+  margin-left:10px;
+  display: inline;
+}
+
+.headerRow .search-field {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  float:right;
+  margin-top:8px;
+  margin-right:70px;
+}
+
+.headerRow .search-field .FormField {
+  margin-bottom:0px;
+}
+
+.tw-overlay-container, .tw-popup {
+  z-index: 3;
+}
+
+.search-field-popup {
+    width: 600px;
+    max-height:480px;
+    overflow:auto;
+}
+
+.Row {
+  margin-left:0px !important;
+  margin-right:0px !important;
+}
+
+.Row > div {
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.city-map {
+   width: 100vw;
+   height: calc(100vh - 50px);
+   height: -o-calc(100vh - 50px); /* opera */
+   height: -webkit-calc(100vh - 50px); /* google, safari */
+   height: -moz-calc(100vh - 50px); /* firefox */
+}
+
+.city-map .leaflet-control-container {
+  display:none;
+}
+
+.FormInput.location-list-location {
+  background-color:#373a47;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #eee;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  right: 15px;
+  top: 15px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ded;
+}
+
+/* Color of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-overlay {
+  display: none;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* General menu styles */
+.bm-menu {
+  background: #373a47;
+  padding:0.8em;
+}
+
+/* Wrapper for item list */
+.bm-item-list > h1 {
+  color:white;
+  font-size: 2em;
+}
