@@ -46,6 +46,6 @@
     "prestart": "node api.js &"
   },
   "author": "John Ahlroos",
-  "license": "BSD-2-Clause",
+  "license": "GNU General Public License (GPLv3)",
   "private": true
 }
