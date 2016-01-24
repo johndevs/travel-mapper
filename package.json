@@ -44,7 +44,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot --inline",
     "prestart": "node api.js &",
-    "deploy": "NODE_ENV=production webpack -p"
+    "deploy": "NODE_ENV=production webpack"
   },
   "author": "John Ahlroos",
   "license": "GNU General Public License (GPLv3)",
